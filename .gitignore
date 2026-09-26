@@ -1,0 +1,9 @@
+# 中间产物（本书全文抽取，不在技能包内发布）
+interim_full.txt
+interim_full.json
+
+# Python / 系统
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
