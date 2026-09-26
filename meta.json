@@ -1,0 +1,26 @@
+{
+  "name": "science-landmark-experiments",
+  "title": "科学里程碑实验速查 / 方法库",
+  "description": "覆盖《改变历史的100个实验》收录的心理学 50 项 + 物理学 50 项里程碑实验，每条以「背景假设→方法设计→关键结果→意义影响」四段骨架沉淀，支持按年份/学科/研究者/主题检索与结构化蒸馏改写。",
+  "version": "1.0.0",
+  "author": "fyynh01-cmd",
+  "book_source": {
+    "title": "改变历史的100个实验（心理学卷：巴甫洛夫的狗；物理学卷：薛定谔的猫）",
+    "author": "[英]亚当·哈特-戴维斯",
+    "publisher": "未读·探索家 / 北京联合出版公司",
+    "license_note": "本技能内容为对原书的结构化蒸馏归纳改写，非原文复制；禁止整本外发或大段复制受版权保护的原文。"
+  },
+  "structure": {
+    "entry_skeleton": ["背景假设", "方法设计", "关键结果", "意义影响"],
+    "discipline_tables": {
+      "psychology": "assets/psychology.md",
+      "physics": "assets/physics.md"
+    },
+    "examples": ["examples/psychology-milgram.md", "examples/physics-michelson.md"]
+  },
+  "counts": {
+    "psychology": 50,
+    "physics": 50,
+    "total": 100
+  }
+}
